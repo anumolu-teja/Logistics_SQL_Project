@@ -1,0 +1,65 @@
+# =========================
+#  OS / Editor / IDE files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.ipynb_checkpoints/
+
+# =========================
+#  Python environment files
+# =========================
+venv/
+env/
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+*password*
+*secret*
+*credentials*
+
+# =========================
+#  Data & Export files
+# =========================
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.zip
+data/temp/
+*.bak
+*.log
+
+# =========================
+#  Jupyter Notebook
+# =========================
+# (We keep .ipynb files, but ignore hidden autosaves)
+.notebooks/
+.ipynb_checkpoints/
+
+# =========================
+#  Tableau / Visualization
+# =========================
+*.twb
+*.twbx
+
+# =========================
+#  OS-specific
+# =========================
+# Windows
+Desktop.ini
+
+# Mac
+.AppleDouble
+.LSOverride
+Icon?
+
